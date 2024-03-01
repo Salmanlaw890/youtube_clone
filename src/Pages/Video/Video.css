@@ -1,0 +1,16 @@
+.play_video{
+    background: #f9f9f9;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:900px){
+    .play_video{
+     padding-right: 5%;
+     padding-left: 5%;
+    }
+ }
+ 

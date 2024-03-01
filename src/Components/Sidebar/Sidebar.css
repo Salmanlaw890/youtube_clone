@@ -1,0 +1,59 @@
+.sidebar{
+    background: #fff;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    padding-left: 2%;
+    padding-right: 80px;
+    z-index: 1;
+}
+.shortcut_links img{
+    width: 20px;
+    margin-right: 20px;
+}
+.side_link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.subscribed_list h3{
+    font-size: 13px;
+    margin: 15px 0;
+    color: #5a5a5a;
+}
+.subscribed_list img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.small_sidebar{
+    width: 5%;
+}
+.small_sidebar p{
+    display: none;
+}
+.small_sidebar h3{
+    display: none;
+}
+.small_sidebar hr{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.active img{
+    padding-bottom: 3px;
+    border-bottom: 3px solid red;
+}
+@media (max-width:900px){
+    .sidebar{
+       display: none;
+    }
+}
