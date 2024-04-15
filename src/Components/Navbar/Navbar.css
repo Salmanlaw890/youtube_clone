@@ -2,7 +2,7 @@ nav{
     padding: 10px 2%;
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 10;
+    z-index: 10000;
     position: sticky;
     top: 0;
     margin-bottom: 15px;
